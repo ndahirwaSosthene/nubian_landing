@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <style>
+    .nubian-logo {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      fill: #FFFFFF;
+    }
+    .basket {
+      fill: #FFD200;
+      stroke: #00A650;
+      stroke-width: 1.5;
+    }
+    .pattern {
+      fill: none;
+      stroke: #00A650;
+      stroke-width: 1;
+      stroke-dasharray: 3,2;
+    }
+  </style>
+  <g>
+    <!-- Stylized Basket Icon -->
+    <path class="basket" d="M40 15 L25 15 L20 30 L45 30 Z" />
+    <path class="pattern" d="M25 15 Q32.5 10 40 15" />
+    <path class="pattern" d="M25 20 Q32.5 15 40 20" />
+    <path class="pattern" d="M25 25 Q32.5 20 40 25" />
+    
+    <!-- Nubian Text -->
+    <text x="55" y="30" class="nubian-logo">NUBIAN</text>
+  </g>
+</svg>

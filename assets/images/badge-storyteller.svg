@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <style>
+    .badge-bg {
+      fill: #F9F9F9;
+      stroke: #0065BD;
+      stroke-width: 2;
+    }
+    .badge-icon {
+      fill: #0065BD;
+    }
+  </style>
+  <g>
+    <circle class="badge-bg" cx="25" cy="25" r="22" />
+    <!-- Book Icon -->
+    <path class="badge-icon" d="M15 15 L35 15 L35 35 L15 35 Z" />
+    <path class="badge-icon" d="M15 15 L25 20 L35 15" fill="none" stroke="#0065BD" stroke-width="2" />
+    <path class="badge-icon" d="M25 20 L25 35" fill="none" stroke="#0065BD" stroke-width="2" />
+  </g>
+</svg>

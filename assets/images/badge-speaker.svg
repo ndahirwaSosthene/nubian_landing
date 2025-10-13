@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <style>
+    .badge-bg {
+      fill: #F9F9F9;
+      stroke: #FFD200;
+      stroke-width: 2;
+    }
+    .badge-icon {
+      fill: #FFD200;
+    }
+  </style>
+  <g>
+    <circle class="badge-bg" cx="25" cy="25" r="22" />
+    <!-- Speech Icon -->
+    <path class="badge-icon" d="M15 20 L35 20 L35 30 L25 30 L20 35 L20 30 L15 30 Z" />
+  </g>
+</svg>
